@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn-container{
+    text-align: center;
+}
+.btn{
+    padding: 14px 18px 14px 18px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    border-radius: 6px; 
+    margin: 32px 0px;
+    cursor: pointer;
+}
+#Hero{
+        height: 615px;
+        background-image: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+        url(../assets/hero-bg.png);
+        block-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+}
+#Hero .Hero-content{
+    width: 685px; 
+}
+#Hero .Hero-content .subtittle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+}
+#Hero .Hero-content .tittle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#Hero .Hero-content .description{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 14px 0px;
+}
+
+/* card-box */
+#card-box{
+    width: 884px;
+    margin: 100px auto;
+}
+
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.card .image-box{
+    width: 250px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 10px 18px 10px 18px;
+
+    }
+    .card h1{
+        color: rgb(16, 16, 16);
+        font-family: Work Sans;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 47px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .card p{
+        color: rgb(16, 16, 16);
+        font-family: Work Sans;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+        
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 615px;
+     
+    }
+    .picture img{
+      width: 500px;
+      height: 300px;   
+      text-align: center;   
+    }
+    .data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .data h1{
+        color: rgb(16, 16, 16);
+        font-family: Work Sans;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0%;
+    }
+    .data p{
+        color: rgb(16, 16, 16);
+        font-family: Work Sans;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0%;
+        opacity: 0.6;
+        
+    }
+    .data span{
+        color: rgb(16, 16, 16);
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0%;
+        opacity: 0.7;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+        border-top: 1px solid rgba(16, 16, 16, 0.2);
+        padding: 14px 7px 14px 7px;
+        
+
+    }
+    .social-media{
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .social-media img{
+        width: 35px;
+        height: 35px;
+    } 
+    .single{
+        margin: 150px auto ;
+        border:2px dashed grey;
+        border-radius: 6px;
+        width: 250px;
+        height: 435px;
+    }
+    .last{
+        background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../assets/social-bg.png);
+        background-position: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 615px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+}
+
+
